@@ -56,6 +56,17 @@ This is a FastAPI-based API application for generating Jira tickets with Rivian-
     - `issue_id` (str): ID of the Jira issue.
 - **Response**: JSON data indicating success or failure of the notification.
 
+## Testing Endpoint Protection
+
+To test the protection of endpoints, a static database with user data is included.
+
+For testing purposes, the following user credentials can be used:
+
+- Username: `filip`
+- Password: `secret`
+
+Additionally, a bearer token `fakehashedsecret` is available.
+
 ## Docker Support
 This project includes Docker support for containerization. To build and run the Docker container, use the following commands:
 ```bash
